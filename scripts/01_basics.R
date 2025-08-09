@@ -48,6 +48,8 @@ square <- function(x) {
   x*x
 }
 
+square(3)
+
 # leftside |> rightside 
 
 result1 <- arrange(mutate(select(tb, name, score), score2 = score * 2), desc(score2))
